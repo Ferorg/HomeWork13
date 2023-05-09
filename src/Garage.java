@@ -1,16 +1,3 @@
-public class Garage<T> {
+public class Garage{
 
-    T vehicle;
-
-
-    public Garage(T t) {
-        vehicle=t;
-    }
-
-    @Override
-    public String toString() {
-        return "Garage{" +
-                "vehicle=" + vehicle +
-                '}';
-    }
 }
